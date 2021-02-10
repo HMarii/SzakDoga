@@ -1,0 +1,333 @@
+* {
+	font-family: 'Work Sans', sans-serif;
+}
+
+body {
+	background: #EEE;
+}
+
+
+.nav a {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.hide {
+	display: none;
+}
+
+#login {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+
+.landing-text {
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+	font-family: 'Kaushan Script', cursive;
+	padding: 10px;
+}
+
+i {
+	text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+
+.padding i {
+	padding: 20px;
+}
+
+.padding {
+	padding: 80px 0;
+}
+
+#logoName {
+	text-transform: uppercase;
+	text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+	font-family: 'Kaushan Script', cursive;
+	font-size: 32px;
+	padding: 10px;
+}
+
+a:hover {
+	cursor: url('../cursor/cursor.cur'), auto;
+}
+
+footer {
+	width: 100%;
+	padding: 5% 5% 0 5%;
+}
+
+#social a {
+	padding: 7px;
+	color: black;
+}
+
+#social a:hover {
+	text-decoration: none;
+}
+
+footer #reach h3 {
+	padding-bottom: 10px;
+}
+
+footer #reach p {
+	padding: 5px;
+	font-weight: bold;
+}
+
+.radio-inline {
+	padding: 5px;
+}
+
+input[type="checkbox"],input[type="radio"] {
+	transform: scale(1.5);
+}
+
+
+
+
+
+#home h3 {
+	padding: 30px;
+}
+
+#home button {
+	padding: 15px;
+
+}
+
+form {
+	width: 75%;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+form label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.lead {
+	font-family: Helvetica;
+}
+
+img {
+	width: 400px;
+	height: 400px;
+
+}
+
+#comment {
+	resize: none; 
+}
+
+
+
+@media (max-width: 998px) {
+	.container {
+		padding-top: 25px;
+		margin-top: 5px;
+	}
+
+
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.landing-text h3 {
+		font-size: 0.9rem;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.fas {
+		font-size: 50px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+	form label {
+	font-size: 16px;
+}
+	form input {
+		font-size: 12px;
+	}
+	#shelterform {
+		margin-top: 100px;
+	}
+
+	#login {
+				
+		visibility: hidden;
+	}
+
+
+
+	@media (max-width: 520px) {
+		.container {
+			padding-top: 5px;
+			margin-top: 5px;
+		}
+
+
+		.landing-text h1 {
+			font-size: 200%;
+		}
+		.landing-text h3 {
+			font-size: 0.7rem;
+		}
+		.fa {
+			font-size: 15px;
+			padding: 5px;
+		}
+		.fas {
+			font-size: 40px;
+		}
+		.icon {
+			padding-top: 5%;
+			max-width: 80px;
+		}
+		form label {
+		font-size: 14px;
+	}
+		form input {
+			font-size: 8px;
+		}
+
+		#logoName {
+			text-transform: uppercase;
+			text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+			font-family: 'Kaushan Script', cursive;
+			font-size: 22px;
+			padding: 5px;
+		}
+		nav p {
+			
+			font-size: 12px;
+		}
+
+		#login {
+				
+			visibility: hidden;
+		}
+
+		/*#shelterform {
+			margin-top: 80px;
+		}*/
+
+		@media (max-width: 400px) {
+			.container {
+				padding-top: 5px;
+				margin-top: 5px;
+			}
+	
+	
+			.landing-text h1 {
+				font-size: 150%;
+			}
+			.landing-text h3 {
+				font-size: 0.5rem;
+			}
+			.fa {
+				font-size: 15px;
+				padding: 6px;
+			}
+			.fas {
+				font-size: 40px;
+			}
+			.icon {
+				padding-top: 5%;
+				max-width: 60px;
+			}
+			form label {
+			font-size: 14px;
+		}
+			form input {
+				font-size: 8px;
+			}
+	
+			#logoName {
+				text-transform: uppercase;
+				text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+				font-family: 'Kaushan Script', cursive;
+				font-size: 18px;
+				padding: 8px;
+			}
+			nav p {
+				
+				font-size: 8px;
+			}
+	
+			/*#shelterform {
+				margin-top: 80px;
+			}*/
+
+			#login {
+				
+				visibility: hidden;
+			}
+
+		}
+
+		@media (max-width: 320px) {
+			.container {
+				padding-top: 3px;
+			}
+	
+	
+			.landing-text h1 {
+				font-size: 150%;
+			}
+			.landing-text h3 {
+				font-size: 0.5rem;
+			}
+			.fa {
+				font-size: 15px;
+				padding: 3px;
+			}
+			.fas {
+				font-size: 40px;
+			}
+			.icon {
+				padding-top: 5%;
+				max-width: 40px;
+			}
+			form label {
+			font-size: 14px;
+		}
+			form input {
+				font-size: 8px;
+			}
+	
+			#logoName {
+				text-transform: uppercase;
+				text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+				font-family: 'Kaushan Script', cursive;
+				font-size: 14px;
+				padding: 5px;
+			}
+			#login {
+				
+				visibility: hidden;
+			}
+	
+			/*#shelterform {
+				margin-top: 80px;
+			}*/
+
+		}
+}
+
+
+
+
+}
