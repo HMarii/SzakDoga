@@ -1,0 +1,2 @@
+# SzakDoga
+OKJ-s Szakdolgozat
